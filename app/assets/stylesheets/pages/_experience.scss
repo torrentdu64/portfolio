@@ -1,0 +1,54 @@
+.nz-map{
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(0,0,0,0.8)), asset-url("auk-night");
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+  height: 96vh;
+
+  path{
+    fill: #525050;
+  }
+  polygon{
+    fill: #525050;
+    stroke: white;
+    //stroke-width: 4px;
+  }
+  .left-side-map {
+    margin: auto 0;
+    color: white;
+  }
+  .right-side-map{
+    margin-top: 20px;
+  }
+  .map-img{
+    height: 500px;
+  }
+}
+
+#NZ-AUK{
+  fill: white;
+}
+
+.maori-frize{
+  width: 100%;
+}
+
+.exp-subject{
+  display: flex;
+  img{
+    padding-left: 50px;
+    padding-top: 40px;
+  }
+  .exp-content{
+    padding: 40px;
+    align-self: center;
+    .exp-card{
+      border-radius: 8px;
+      padding: 20px;
+      margin: 100px 0;
+      background-color: white;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+  }
+}
+

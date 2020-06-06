@@ -1,2 +1,116 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+
+<!-- <div class="loader">
+  <marquee direction="right" scrollamount="10"
+      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Temporibus, modi.</marquee
+  >
+  <marquee direction="left" scrollamount="30"
+      >Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Itaque, cupiditate?</marquee
+  >
+  <marquee direction="right" scrollamount="20"
+      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Similique, quo.</marquee
+  >
+  <marquee direction="" scrollamount="40"
+      >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Ducimus, dolorem.</marquee
+  >
+  <div class="intro">
+      <h1 class="intro-title">Selected</h1>
+  </div>
+</div> -->
+
+
+
+<div class="cards-container">
+
+  <div class="grid-cards">
+
+    <%= link_to frontend_path do %>
+    <div class="card-info">
+      <h2>Frontend Development 💻</h2>
+      <p>
+        I am passionate about <strong>Frontend Development</strong>.
+      </p>
+    </div>
+    <% end %>
+
+    <%= link_to backend_path do %>
+    <div class="card-info">
+      <h2>Backend Development 🖥️</h2>
+      <p>
+        I wired various <strong>Backend Development</strong>.
+      </p>
+    </div>
+    <% end %>
+
+    <%= link_to hobbie_path do %>
+    <div class="card-info">
+      <h2>Motorbikes 🏍️</h2>
+      <p>
+        I am passionate about <strong>Motorbikes</strong>.
+      </p>
+    </div>
+    <% end %>
+
+    <%= link_to social_path do %>
+      <div class="card-info">
+        <h2>Follow Me</h2>
+        <ul class="list-inline">
+          <li>
+              <i class="fab fa-github-square"></i>
+          </li>
+          <li>
+              <i class="fab fa-twitter-square"></i>
+          </li>
+          <li>
+              <i class="fab fa-medium"></i>
+          </li>
+        </ul>
+    </div>
+    <% end %>
+
+    <%= link_to project_path do %>
+    <div class="card-info">
+      <h2>Project 🗒️</h2>
+      <p>
+        Bunch of project <strong>Alive</strong>.
+      </p>
+    </div>
+    <% end %>
+
+    <%= link_to profile_path do %>
+    <div class="card-info">
+      <h2>About Me 🌍</h2>
+      <p>
+        web-development and creative person around <strong>the world</strong>.
+      </p>
+    </div>
+    <% end %>
+
+    <%= link_to experience_path do %>
+    <div class="card-info">
+      <h2>Food Experience 🍜</h2>
+      <p>
+        Cooking and barbecue is a <strong>art</strong>.
+      </p>
+    </div>
+    <% end %>
+
+    <%= link_to language_path do %>
+    <div class="card-info">
+      <h2>Language  👌</h2>
+      <p>
+        Different <strong>Font</strong>.
+      </p>
+    </div>
+    <% end %>
+
+  </div>
+
+
+</div>
+
+

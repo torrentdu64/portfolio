@@ -1,0 +1,47 @@
+.foot{
+  background-color: white;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 330px;
+
+
+  .foot-title{
+    padding: 10px;
+  }
+
+  .foot-map-list{
+    padding-left: 15px;
+  }
+
+  .foot-map-img li {
+    margin: 3px;
+    padding: 0px 2px;
+  }
+
+  .foot-article-title{
+    padding: 10px 0px 10px 0px;
+  }
+
+  .media-body {
+    flex: 1;
+    padding: 0px 20px;
+    line-height: 1.3;
+    .media-heading{
+      font-size: 1.3rem;
+      p {
+        line-height: 1;
+        font-size: 14px;
+      }
+    }
+  }
+
+  ul.list-unstyled.socila-list {
+      display: flex;
+  }
+
+  .foot-img-job-title {
+    padding: 10px 0px 10px 0px;
+  }
+
+}
