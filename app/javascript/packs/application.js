@@ -31,6 +31,7 @@ import "bootstrap";
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
+
       var textWrapper = document.querySelector(".intro-title");
     textWrapper.innerHTML = textWrapper.textContent.replace(
         /([^\x00-\x80]|\w)/g,
