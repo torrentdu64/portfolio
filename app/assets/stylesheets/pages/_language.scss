@@ -1,6 +1,6 @@
 .frame-grid{
   width: 100%;
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .language-grid{
@@ -31,24 +31,37 @@
 
 #grid1>div{
   color: black;
-  border: black 1px solid;
+  //border: black 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e81e23;
 }
 
 #grid2>div{
-  color: red;
-  border: red 1px solid;
+  color: #ffffff;
+  //border: red 1px solid;
   text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #000000;
 }
 
 #grid3>div{
   color: green;
-  border: green 1px solid;
+  //border: green 1px solid;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  #ffffff;
 }
 
 #grid1 > div:nth-child(1){
   grid-column: 1;
   grid-row: 2;
+  //background: yellow;
 }
 #grid1 > div:nth-child(2){
   grid-column: 2;
