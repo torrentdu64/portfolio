@@ -126,6 +126,17 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .grid-cards{
+    grid-template-columns: 1fr;
+    .card-info{
+      margin: 0 auto;
+    }
+    //
+  }
+
+}
+
 
 
 .espace-footer{ margin-bottom: 1000px; }
