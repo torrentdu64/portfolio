@@ -52,3 +52,24 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .nz-map .right-side-map {
+    position: relative;
+    top: 8%;
+    right: 9%;
+     svg {
+    width: 100%;
+    transform: scale(1.5);
+    }
+  }
+
+  .exp-subject img {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 100%;
+  }
+  .exp-subject {
+    display: block;
+  }
+
+}
